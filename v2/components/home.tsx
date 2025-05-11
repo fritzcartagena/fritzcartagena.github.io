@@ -7,7 +7,7 @@ const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
-  const workExperienceYear = new Date().getFullYear() - 2017
+  const workExperienceYear = new Date().getFullYear() - 2022;
   const marshallAge = new Date().getFullYear() - 2020
 
   // TODO: Fix this. When clicked more, it should not push back
@@ -48,13 +48,10 @@ const HomePage = () => {
           {t('Intro')}
         </h1>
         <p className='max-w-3xl mb-3'>
-          Hey there! My name is <i>Christian Ryan Refuerzo Macarse</i>. A BS Computer Science graduate from Central Philippine University
-          and a proud resident of Iloilo, Philippines. With a total of <b>{workExperienceYear}</b> years work experience in the field
-          of Software Industry. I am capable of multiple things such as Full Stack Development, DevOps, Documentation, QA, and Leadership.
+          Hey there! My name is <i>Fritz Anthony M. Cartagena</i>, An aspiring programmer who is learning code for <b>{workExperienceYear}</b> years.
         </p>
         <p className='max-w-3xl mb-3'>
-          My excellent interpersonal communication skills, time management, detail-oriented, and wide array of technical knowledge would be a
-          great fit to your company!
+          Leablalalalala
         </p>
         {isOpen ? renderMore : <button className='font-bold' onClick={() => setIsOpen(true)}>Read more..</button>}
       </div>
