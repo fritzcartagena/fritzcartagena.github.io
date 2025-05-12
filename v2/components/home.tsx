@@ -51,7 +51,7 @@ const HomePage = () => {
           Hey there! My name is <i>Fritz Anthony M. Cartagena</i>, An aspiring programmer who is learning code for <b>{workExperienceYear}</b> years.
         </p>
         <p className='max-w-3xl mb-3'>
-          Leablalalalala
+          I learnt of my passion for code while in Junior high, and I hope to turn that passion into something more.
         </p>
         {isOpen ? renderMore : <button className='font-bold' onClick={() => setIsOpen(true)}>Read more..</button>}
       </div>
