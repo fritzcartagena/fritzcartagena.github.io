@@ -8,7 +8,9 @@ const HomePage = () => {
   const { t } = useTranslation();
 
   const workExperienceYear = new Date().getFullYear() - 2022;
-  const marshallAge = new Date().getFullYear() - 2020
+  const marshallAge = new Date().getFullYear() - 2020;
+  const studentStatus = 'College Freshman';
+  const university = 'West Visayas State University';
 
   // TODO: Fix this. When clicked more, it should not push back
   const renderMore = (
@@ -21,16 +23,14 @@ const HomePage = () => {
           "bike stroll; chasing summits; feeding my loml; and making sure my dog is living his best life."</p>
       </blockquote>
       <p className='max-w-3xl mb-3'>
-        Is a personally curated purpose of my own life. As an individual who values his mental health. I always make
-        sure to have a spare time to indulge the beauties of life. Occasional biking and running had been integrated to my life. The succeeding
-        entry is not yet done. You'll be wasting your time reading. Please disregard but follow my <a href="https://www.strava.com" className='font-semibold'>Strava</a>. My longest bike so far is a 700km+ ride around Panay Island.
+        As a {studentStatus}, I have alot to learn. I am currently learning the basics of programming at {university}, and I hope to
+        apply that knowledge to real-world projects in the future.
       </p>
       <p className='max-w-3xl mb-3'>
-        Hiking is probably one of my blabla. With over 32(Completed Top 5 highest mountains in PH, Mt. Guiting Guiting, Mt. Kota Kinabalu) summited mountains.
-        It had been my go to hobby to chase mountains around the Philippines and abroad. Eve
+        I have a good understanding of different programming languages, including JavaScript, Python, and C++, to name a few.
       </p>
       <p className='max-w-3xl mb-3'>
-        Cooking is one of my way of showing my appreciation. A self-proclaimed-chef. Talk Glamping and Bike packing
+        Although I am very introverted, I like to help people when I can. I am always looking for ways to improve my skills and knowledge, and I am excited to see where my journey in programming will take me.
       </p>
       <p className='max-w-3xl mb-8'>
         Lastly, my {marshallAge} year old beagle, Marshall, who had been with me on my hikes. A lovely fellow that doesn't even know how to bark and
